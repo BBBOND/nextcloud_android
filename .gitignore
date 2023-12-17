@@ -15,6 +15,7 @@ build/
 *.iml
 gen/
 target/
+output-metadata.json
 
 # Local configuration files (sdk path, etc)
 local.properties

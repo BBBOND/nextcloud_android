@@ -78,7 +78,7 @@ android {
     ndkVersion "${ndkEnv.get("NDK_VERSION")}"
 
 
-    namespace 'com.bbbond.owncloud.android'
+    namespace 'com.owncloud.android'
     testNamespace "${namespace}.test"
 
 
@@ -131,6 +131,12 @@ android {
         }
 
         productFlavors {
+            // used for myself
+            bbbond {
+                applicationId 'com.bbbond.nextcloud.client'
+                dimension "default"
+            }
+
             // used for f-droid
             generic {
                 applicationId 'com.nextcloud.client'
