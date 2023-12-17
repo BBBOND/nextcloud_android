@@ -78,7 +78,7 @@ android {
     ndkVersion "${ndkEnv.get("NDK_VERSION")}"
 
 
-    namespace 'com.owncloud.android'
+    namespace 'com.bbbond.owncloud.android'
     testNamespace "${namespace}.test"
 
 
