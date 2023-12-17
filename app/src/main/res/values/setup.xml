@@ -5,14 +5,14 @@
     <bool name="dev_version_direct_download_enabled">false</bool>
 
     <!-- App name  and other strings-->
-    <string name="app_name">Nextcloud</string>
-    <string name="account_type">nextcloud</string>     <!-- better if was a domain name; but changing it now would require migrate accounts when the app is updated -->
-    <string name="authority">org.nextcloud</string>    <!-- better if was the app package with ".provider" appended ; it identifies the provider -->
-    <string name="users_and_groups_search_authority">com.nextcloud.android.providers.UsersAndGroupsSearchProvider</string>
-    <string name="users_and_groups_share_with">com.nextcloud.android.providers.UsersAndGroupsSearchProvider.action.SHARE_WITH</string>
-    <string name="document_provider_authority">org.nextcloud.documents</string>
-    <string name="file_provider_authority">org.nextcloud.files</string>
-    <string name="image_cache_provider_authority">org.nextcloud.imageCache.provider</string>
+    <string name="app_name">Nextcloud-BBBOND</string>
+    <string name="account_type">nextcloud_bbbond</string>     <!-- better if was a domain name; but changing it now would require migrate accounts when the app is updated -->
+    <string name="authority">org.bbbond.nextcloud</string>    <!-- better if was the app package with ".provider" appended ; it identifies the provider -->
+    <string name="users_and_groups_search_authority">com.bbbond.nextcloud.android.providers.UsersAndGroupsSearchProvider</string>
+    <string name="users_and_groups_share_with">com.bbbond.nextcloud.android.providers.UsersAndGroupsSearchProvider.action.SHARE_WITH</string>
+    <string name="document_provider_authority">org.bbbond.nextcloud.documents</string>
+    <string name="file_provider_authority">org.bbbond.nextcloud.files</string>
+    <string name="image_cache_provider_authority">org.bbbond.nextcloud.imageCache.provider</string>
     <string name="db_file">nextcloud.db</string>
     <string name="db_name">nextcloud</string>
     <string name="data_folder">nextcloud</string>
